@@ -7,4 +7,7 @@ def hexFormat(data, location): #This function is used to properly format the hex
         return ("0"+strippedData)
     else:
         return ("00")
-
+def main()
+    given = input("Enter the path to a FAT formatted RAW image: ")
+    with open(given, "rb") as infile:
+        data = infile.read(1024)

@@ -1,3 +1,6 @@
+#DJ Palombo
+#FAT Parser
+
 def hexFormat(data, location): #This function is used to properly format the hex values being read off the disk
     formattedCorrectly = hex(data[location]) #This created formattedCorrectly as the hex value found at the location given
     strippedData = formattedCorrectly[2:] #This removes the "0x" from in front of the value to allow for easier processing
